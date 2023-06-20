@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc format="5" filename="Sample.pdf">
+  <attr name="author" val="Кузнецов" />
+  <section width="21.0" height="29.7" />
+  <content>
+    <container id="cnt1">
+      <text id="txt1">Перед таблицей</text>
+      <newline count="2" />
+      <text id="txt2">Cell 11            Cell 12                                          Cell 13       Cc11   Cc22   Cc13</text>
+      <newline />
+      <text id="txt3">Cc21           Cc23</text>
+      <newline count="4" />
+      <text id="txt4">Cell 21 + Cell 31   Cell 22                                          Cell 23      Cell 24</text>
+      <newline />
+      <text id="txt5">Cell 32                                          Cell 33 + Cell 34</text>
+      <newline count="3" />
+      <text id="txt6">А это </text>
+      <text id="txt7" type="1">ну</text>
+      <text id="txt8">мерованный</text>
+      <footnote id="footnote1" mark="1">
+        <container id="cnt2">
+          <text id="txt9"> Это первая сноска</text>
+        </container>
+      </footnote>
+      <text id="txt10"> список</text>
+      <newline count="2" />
+      <text id="txt11">1.  Первая строка απ®</text>
+      <newline />
+      <text id="txt12">2.  Вторая строка</text>
+      <footnote id="footnote2" mark="2">
+        <container id="cnt3">
+          <text id="txt13"> А это вторая сноска Добавлено примечание ([ККИ1]): Это первое примечание Добавлено примечание ([ККИ2]): А это второе примечание на несколько элементов</text>
+        </container>
+      </footnote>
+      <newline />
+      <text id="txt14">a.  Подстрока второй строки</text>
+      <newline />
+      <text id="txt15">b.  Другая строка</text>
+      <newline />
+      <text id="txt16">3.  Третья строка</text>
+      <newline count="4" />
+      <text id="txt17">Ненумерованный</text>
+      <text id="txt18" type="1">11</text>
+      <text id="txt19"> список</text>
+      <text id="txt20" type="1">i</text>
+      <newline count="2" />
+      <text id="txt21">   1111</text>
+      <text id="txt22" type="1">1</text>
+      <newline />
+      <text id="txt23">   222</text>
+      <text id="txt24" type="1">2</text>
+      <text id="txt25">2</text>
+      <newline />
+      <text id="txt26">   33333</text>
+      <newline count="2" />
+      <text id="txt27">Следующий нумерованный список</text>
+      <newline count="2" />
+      <text id="txt28">Е.  123412341</text>
+      <newline />
+      <text id="txt29">a.  456456465</text>
+      <newline />
+      <text id="txt30">b.  456456456</text>
+      <newline />
+      <text id="txt31">i.  456456456</text>
+      <newline />
+      <text id="txt32">ii.  456456456</text>
+      <newline />
+      <text id="txt33">c.  456456456</text>
+      <newline />
+      <text id="txt34">d.  456456456</text>
+      <newline />
+      <text id="txt35">Ж.  456456456</text>
+      <newline />
+      <text id="txt36">a.  456456456</text>
+      <newline />
+      <text id="txt37">i.  45645646</text>
+      <newline />
+      <text id="txt38">З.  456456456</text>
+      <newline count="3" />
+      <text id="txt39">Договор поставки №Ошибка! Источник ссылки не найден.</text>
+      <newline count="2" />
+      <text id="txt40">А это отдельное поле:  Ошибка! Источник ссылки не найден., должен выделиться обычный текст.</text>
+      <pagebreak pagenum="1" />
+      <text id="txt41">А это полотно с диаграммой:</text>
+      <newline count="11" />
+      <text id="txt42">Заголовок текст 1111</text>
+      <newline count="4" />
+      <text id="txt43">Здесь псевдогиперссылки на заголовок, на закладку и другую закладку.</text>
+      <newline count="2" />
+      <text id="txt44">Таблица,  в которой столбец содержит авто нумерацию</text>
+      <newline count="2" />
+      <text id="txt45">№    Название работы</text>
+      <newline count="2" />
+      <text id="txt46">1.     Html-верстка новых макетов страниц, шаблонов писем, интерфейсных решений, внедрение их на сайт</text>
+      <newline count="2" />
+      <text id="txt47">2.     Поддержка сайтов компании (html, css, javascript, xml/xsl)</text>
+      <newline count="2" />
+      <text id="txt48">  Это первый элемент</text>
+      <newline count="2" />
+      <text id="txt49">  Это второй элемент</text>
+      <newline count="2" />
+      <text id="txt50">3.     Доработка нового функционала (html, css, javascript, xml/xsl) для сайтов компании</text>
+      <newline count="7" />
+      <text id="txt51">Текст</text>
+      <newline />
+      <text id="txt52">внутри</text>
+      <newline />
+      <text id="txt53">прямоуголь</text>
+      <newline />
+      <text id="txt54">ника</text>
+      <newline count="4" />
+      <text id="txt55">Текст</text>
+      <newline />
+      <text id="txt56">внутри</text>
+      <newline />
+      <text id="txt57">круга.</text>
+      <newline count="4" />
+      <text id="txt58">А это текст внутри</text>
+      <newline />
+      <text id="txt59">плавающего прямоугольника</text>
+      <pagebreak pagenum="2" />
+      <text id="txt60">А это просто</text>
+      <text id="txt61" type="1">ii</text>
+      <text id="txt62"> картинка на новой строке:</text>
+      <newline count="2" />
+      <image id="img1" width="193pt" height="261pt" />
+      <newline count="6" />
+      <text id="txt63" type="1">i</text>
+      <text id="txt64"> Это первая концевая сноска</text>
+      <newline />
+      <text id="txt65" type="1">ii</text>
+      <text id="txt66"> А это другая концевая сноска (с таблицей !)</text>
+      <newline />
+      <text id="txt67">Это первая ячейка в концевой сноске                     А это другая ячейка в концевой сноске</text>
+    </container>
+  </content>
+</doc>

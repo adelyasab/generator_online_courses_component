@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc format="2" filename="Sample2003.xml">
+  <styles>
+    <style id="0" margin-bottom="0.0pt" />
+    <style id="1" width="90.45pt" />
+    <style id="2" width="219.75pt" />
+    <style id="3" width="48.7pt" />
+    <style id="4" width="119.65pt" />
+    <style id="5" width="36.0pt" />
+    <style id="6" width="36.05pt" />
+    <style id="7" width="168.35pt" />
+    <style id="8" text-align="center" />
+    <style id="9" font-weight="bold" />
+    <style id="10" font-weight="bold" text-decoration="underline" />
+    <style id="11" background-color="#FFFFFF" />
+    <style id="12" width="33.15pt" />
+    <style id="13" width="266.15pt" />
+    <style id="14" background-color="#FFFFFF" margin-top="2.9pt" />
+    <style id="15" width="239.25pt" />
+    <style id="16" width="239.3pt" />
+  </styles>
+  <section id="ps1" width="21.0" height="29.7" left="3.0" top="2.0" right="1.5" bottom="2.0" header="1.25" footer="1.25" />
+  <content>
+    <container id="cnt1" b="0" e="1438">
+      <text id="txt1" b="0" e="13" section="ps1">Перед таблицей</text>
+      <newline b="14" e="14" section="ps1" />
+      <table id="tbl1" b="15" e="152" section="ps1" rows="3" columns="4">
+        <col num="0" width="18%" />
+        <col num="1" width="45%" />
+        <col num="2" width="10%" />
+        <col num="3" width="25%" />
+        <row>
+          <cell id="tcell1" b="15" e="23" row="0" col="0">
+            <text id="txt2" b="15" e="21">Cell 11</text>
+          </cell>
+          <cell id="tcell2" b="24" e="32" row="0" col="1">
+            <text id="txt3" b="24" e="30">Cell 12</text>
+          </cell>
+          <cell id="tcell3" b="33" e="41" row="0" col="2">
+            <text id="txt4" b="33" e="39">Cell 13</text>
+          </cell>
+          <cell id="tcell4" b="42" e="76" row="0" col="3">
+            <table id="tbl2" b="42" e="73" rows="2" columns="3">
+              <col num="0" width="33%" />
+              <col num="1" width="33%" />
+              <col num="2" width="33%" />
+              <row>
+                <cell id="tcell5" b="42" e="47" row="0" col="0">
+                  <text id="txt5" b="42" e="45">Cc11</text>
+                </cell>
+                <cell id="tcell6" b="48" e="53" row="0" col="1">
+                  <text id="txt6" b="48" e="51">Cc22</text>
+                </cell>
+                <cell id="tcell7" b="54" e="59" row="0" col="2">
+                  <text id="txt7" b="54" e="57">Cc13</text>
+                </cell>
+              </row>
+              <row>
+                <cell id="tcell8" b="60" e="65" row="1" col="0">
+                  <text id="txt8" b="60" e="63">Cc21</text>
+                </cell>
+                <cell id="tcell9" b="66" e="67" row="1" col="1" />
+                <cell id="tcell10" b="68" e="73" row="1" col="2">
+                  <text id="txt9" b="68" e="71">Cc23</text>
+                </cell>
+              </row>
+            </table>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell11" b="77" e="95" row="1" col="0">
+            <text id="txt10" b="77" e="93">Cell 21 + Cell 31</text>
+          </cell>
+          <cell id="tcell12" b="96" e="104" row="1" col="1">
+            <text id="txt11" b="96" e="102">Cell 22</text>
+          </cell>
+          <cell id="tcell13" b="105" e="113" row="1" col="2">
+            <text id="txt12" b="105" e="111">Cell 23</text>
+          </cell>
+          <cell id="tcell14" b="114" e="122" row="1" col="3">
+            <text id="txt13" b="114" e="120">Cell 24</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell15" b="123" e="124" row="2" col="0" />
+          <cell id="tcell16" b="125" e="133" row="2" col="1">
+            <text id="txt14" b="125" e="131">Cell 32</text>
+          </cell>
+          <cell id="tcell17" b="134" e="152" row="2" col="2" colspan="2">
+            <text id="txt15" b="134" e="150">Cell 33 + Cell 34</text>
+          </cell>
+        </row>
+      </table>
+      <newline b="153" e="153" section="ps1" />
+      <text id="txt16" b="154" e="155" section="ps1">А </text>
+      <hyperlink id="hyplnk1" b="156" e="171" section="ps1" href="http://google.ru/">
+        <container id="cnt2" b="156" e="171">
+          <text id="txt17" b="156" e="159">это </text>
+          <text id="txt18" b="160" e="161" type="1">ну</text>
+          <text id="txt19" b="162" e="169">мерованн</text>
+          <text id="txt20" b="170" e="171" type="2">ый</text>
+        </container>
+      </hyperlink>
+      <footnote id="footnote1" b="172" e="191" section="ps1">
+        <text id="txt21" b="173" e="190"> Это первая сноска</text>
+      </footnote>
+      <text id="txt22" b="192" e="198" section="ps1"> список</text>
+      <newline b="199" e="199" section="ps1" />
+      <text id="txt23" b="200" e="217" section="ps1">Первая строка ☺απ®</text>
+      <newline b="218" e="218" section="ps1" />
+      <text id="txt24" b="219" e="231" section="ps1">Вторая строка</text>
+      <footnote id="footnote2" b="232" e="253" section="ps1">
+        <text id="txt25" b="233" e="252"> А это вторая сноска</text>
+      </footnote>
+      <newline b="254" e="254" section="ps1" />
+      <text id="txt26" b="255" e="277" section="ps1">Подстрока второй строки</text>
+      <newline b="278" e="278" section="ps1" />
+      <text id="txt27" b="279" e="285" section="ps1">Другая </text>
+      <hyperlink id="hyplnk2" b="286" e="291" section="ps1" href="http://google.ru/">
+        <text id="txt28" b="286" e="291">строка</text>
+      </hyperlink>
+      <newline b="292" e="292" section="ps1" />
+      <text id="txt29" b="293" e="305" section="ps1">Третья строка</text>
+      <newline b="306" e="306" section="ps1" count="2" />
+      <text id="txt30" b="308" e="321" section="ps1">Ненумерованный</text>
+      <text id="txt31" b="322" e="323" section="ps1" type="1">11</text>
+      <text id="txt32" b="324" e="330" section="ps1"> список</text>
+      <footnote id="footnote3" b="331" e="359" section="ps1" endnote="true">
+        <text id="txt33" b="332" e="358"> Это первая концевая сноска</text>
+      </footnote>
+      <newline b="360" e="360" section="ps1" />
+      <text id="txt34" b="361" e="364" section="ps1">1111</text>
+      <text id="txt35" b="365" e="365" section="ps1" type="1">1</text>
+      <newline b="366" e="366" section="ps1" />
+      <text id="txt36" b="367" e="369" section="ps1">222</text>
+      <text id="txt37" b="370" e="370" section="ps1" type="1">2</text>
+      <text id="txt38" b="371" e="371" section="ps1">2</text>
+      <newline b="372" e="372" section="ps1" />
+      <text id="txt39" b="373" e="377" section="ps1">33333</text>
+      <newline b="378" e="378" section="ps1" />
+      <text id="txt40" b="379" e="422" section="ps1">Следующий нумерованный Это первое примечание</text>
+      <newline b="423" e="423" section="ps1" />
+      <text id="txt41" b="424" e="429" section="ps1">список</text>
+      <newline b="430" e="430" section="ps1" />
+      <text id="txt42" b="431" e="439" section="ps1">123412341</text>
+      <newline b="440" e="440" section="ps1" />
+      <text id="txt43" b="441" e="449" section="ps1">456456465</text>
+      <newline b="450" e="450" section="ps1" />
+      <text id="txt44" b="451" e="459" section="ps1">456456456</text>
+      <newline b="460" e="460" section="ps1" />
+      <text id="txt45" b="461" e="469" section="ps1">456456456</text>
+      <newline b="470" e="470" section="ps1" />
+      <text id="txt46" b="471" e="479" section="ps1">456456456</text>
+      <newline b="480" e="480" section="ps1" />
+      <text id="txt47" b="481" e="489" section="ps1">456456456</text>
+      <newline b="490" e="490" section="ps1" />
+      <text id="txt48" b="491" e="499" section="ps1">456456456</text>
+      <newline b="500" e="500" section="ps1" />
+      <text id="txt49" b="501" e="546" section="ps1">А это второе примечание на несколько элементов</text>
+      <newline b="547" e="547" section="ps1" />
+      <text id="txt50" b="548" e="556" section="ps1">456456456</text>
+      <newline b="557" e="557" section="ps1" />
+      <text id="txt51" b="558" e="566" section="ps1">456456456</text>
+      <newline b="567" e="567" section="ps1" />
+      <text id="txt52" b="568" e="575" section="ps1">45645646</text>
+      <newline b="576" e="576" section="ps1" />
+      <text id="txt53" b="577" e="585" section="ps1">456456456</text>
+      <newline b="586" e="586" section="ps1" count="2" />
+      <text id="txt54" b="588" e="623" section="ps1">Договор поставки №17731-40917731-409</text>
+      <newline b="624" e="624" section="ps1" />
+      <text id="txt55" b="625" e="699" section="ps1">А это отдельное поле:  ООО ''ТД ''Олимп'', должен выделиться обычный текст.</text>
+      <newline b="700" e="700" section="ps1" />
+      <text id="txt56" b="701" e="728" section="ps1">А это полотно с диаграммой: </text>
+      <container id="cnt3" b="729" e="774" section="ps1" type="1">
+        <text id="txt57" b="729" e="774">Текст внутри прямоугольникаТекст внутри круга.</text>
+      </container>
+      <newline b="775" e="775" section="ps1" count="2" />
+      <container id="cnt4" b="777" e="820" section="ps1" type="1">
+        <text id="txt58" b="777" e="820">А это текст внутри плавающего прямоугольника</text>
+      </container>
+      <newline b="821" e="821" section="ps1" count="5" />
+      <text id="txt59" b="826" e="845" section="ps1">Заголовок текст 1111</text>
+      <newline b="846" e="846" section="ps1" count="2" />
+      <text id="txt60" b="848" e="874" section="ps1">Здесь псевдогиперссылки на </text>
+      <hyperlink id="hyplnk3" b="875" e="883" section="ps1" href="">
+        <text id="txt61" b="875" e="883">заголовок</text>
+      </hyperlink>
+      <text id="txt62" b="884" e="888" section="ps1">, на </text>
+      <hyperlink id="hyplnk4" b="889" e="896" section="ps1" href="">
+        <text id="txt63" b="889" e="896">закладку</text>
+      </hyperlink>
+      <text id="txt64" b="897" e="899" section="ps1"> и </text>
+      <hyperlink id="hyplnk5" b="900" e="914" section="ps1" href="">
+        <text id="txt65" b="900" e="914">другую закладку</text>
+      </hyperlink>
+      <text id="txt66" b="915" e="915" section="ps1">.</text>
+      <newline b="916" e="916" section="ps1" />
+      <text id="txt67" b="917" e="967" section="ps1">Таблица,  в которой столбец содержит авто нумерацию</text>
+      <newline b="968" e="968" section="ps1" />
+      <table id="tbl3" b="969" e="1271" section="ps1" rows="4" columns="2">
+        <col num="0" width="11%" />
+        <col num="1" width="88%" />
+        <row>
+          <cell id="tcell18" b="969" e="971" row="0" col="0">
+            <text id="txt68" b="969" e="969">№</text>
+          </cell>
+          <cell id="tcell19" b="972" e="988" row="0" col="1">
+            <text id="txt69" b="972" e="986">Название работы</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell20" b="989" e="990" row="1" col="0" />
+          <cell id="tcell21" b="991" e="1086" row="1" col="1">
+            <text id="txt70" b="991" e="1084">Html-верстка новых макетов страниц, шаблонов писем, интерфейсных решений, внедрение их на сайт</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell22" b="1087" e="1088" row="2" col="0" />
+          <cell id="tcell23" b="1089" e="1186" row="2" col="1">
+            <container id="cnt5" b="1089" e="1185">
+              <text id="txt71" b="1089" e="1146">Поддержка сайтов компании (html, css, javascript, xml/xsl)</text>
+              <newline b="1147" e="1147" />
+              <text id="txt72" b="1148" e="1165">Это первый элемент</text>
+              <newline b="1166" e="1166" />
+              <text id="txt73" b="1167" e="1184">Это второй элемент</text>
+            </container>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell24" b="1187" e="1188" row="3" col="0" />
+          <cell id="tcell25" b="1189" e="1271" row="3" col="1">
+            <text id="txt74" b="1189" e="1269">Доработка нового функционала (html, css, javascript, xml/xsl) для сайтов компании</text>
+          </cell>
+        </row>
+      </table>
+      <pagebreak b="1274" e="1274" section="ps1" />
+      <newline b="1275" e="1275" section="ps1" />
+      <text id="txt75" b="1276" e="1287" section="ps1">А это просто</text>
+      <footnote id="footnote4" b="1288" e="1408" section="ps1" endnote="true">
+        <container id="cnt6" b="1289" e="1407">
+          <text id="txt76" b="1289" e="1332"> А это другая концевая сноска (с таблицей !)</text>
+          <newline b="1333" e="1333" />
+          <table id="tbl4" b="1334" e="1407" rows="1" columns="2">
+            <col num="0" width="49%" />
+            <col num="1" width="50%" />
+            <row>
+              <cell id="tcell26" b="1334" e="1369" row="0" col="0">
+                <text id="txt77" b="1334" e="1368">Это первая ячейка в концевой сноске</text>
+              </cell>
+              <cell id="tcell27" b="1370" e="1407" row="0" col="1">
+                <text id="txt78" b="1370" e="1406">А это другая ячейка в концевой сноске</text>
+              </cell>
+            </row>
+          </table>
+        </container>
+      </footnote>
+      <text id="txt79" b="1409" e="1434" section="ps1"> картинка на новой строке:</text>
+      <newline b="1435" e="1435" section="ps1" />
+      <image id="img1" b="1436" e="1436" section="ps1" width="267.95pt" height="359.35pt" />
+    </container>
+  </content>
+  <stylefrag b="0" e="1438">
+    <stylefrag typ="2" b="0" e="14">
+      <text>Перед таблицей
+</text>
+    </stylefrag>
+    <stylefrag typ="3" b="15" e="152">
+      <stylefrag typ="4" style="1" b="15" e="23" width="90.45pt">
+        <stylefrag typ="2" style="0" b="15" e="22" margin-bottom="0.0pt">
+          <text>Cell 11
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="2" b="24" e="32" width="219.75pt">
+        <stylefrag typ="2" style="0" b="24" e="31" margin-bottom="0.0pt">
+          <text>Cell 12
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="3" b="33" e="41" width="48.7pt">
+        <stylefrag typ="2" style="0" b="33" e="40" margin-bottom="0.0pt">
+          <text>Cell 13
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="4" b="42" e="76" width="119.65pt">
+        <stylefrag typ="3" b="42" e="73">
+          <stylefrag typ="4" style="5" b="42" e="47" width="36.0pt">
+            <stylefrag typ="2" style="0" b="42" e="46" margin-bottom="0.0pt">
+              <text>Cc11
+</text>
+            </stylefrag>
+          </stylefrag>
+          <stylefrag typ="4" style="6" b="48" e="59" width="36.05pt">
+            <stylefrag typ="2" style="0" b="48" e="52" margin-bottom="0.0pt">
+              <text>Cc22
+</text>
+            </stylefrag>
+            <stylefrag typ="2" style="0" b="54" e="58" margin-bottom="0.0pt">
+              <text>Cc13
+</text>
+            </stylefrag>
+          </stylefrag>
+          <stylefrag typ="4" style="5" b="60" e="65" width="36.0pt">
+            <stylefrag typ="2" style="0" b="60" e="64" margin-bottom="0.0pt">
+              <text>Cc21
+</text>
+            </stylefrag>
+          </stylefrag>
+          <stylefrag typ="4" style="6" b="66" e="73" width="36.05pt">
+            <stylefrag typ="2" style="0" b="66" e="66" margin-bottom="0.0pt">
+              <text>
+</text>
+            </stylefrag>
+            <stylefrag typ="2" style="0" b="68" e="72" margin-bottom="0.0pt">
+              <text>Cc23
+</text>
+            </stylefrag>
+          </stylefrag>
+        </stylefrag>
+        <stylefrag typ="2" style="0" b="75" e="75" margin-bottom="0.0pt">
+          <text>
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="1" b="77" e="95" width="90.45pt">
+        <stylefrag typ="2" style="0" b="77" e="94" margin-bottom="0.0pt">
+          <text>Cell 21 + Cell 31
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="2" b="96" e="104" width="219.75pt">
+        <stylefrag typ="2" style="0" b="96" e="103" margin-bottom="0.0pt">
+          <text>Cell 22
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="3" b="105" e="113" width="48.7pt">
+        <stylefrag typ="2" style="0" b="105" e="112" margin-bottom="0.0pt">
+          <text>Cell 23
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="4" b="114" e="122" width="119.65pt">
+        <stylefrag typ="2" style="0" b="114" e="121" margin-bottom="0.0pt">
+          <text>Cell 24
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="1" b="123" e="124" width="90.45pt">
+        <stylefrag typ="2" style="0" b="123" e="123" margin-bottom="0.0pt">
+          <text>
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="2" b="125" e="133" width="219.75pt">
+        <stylefrag typ="2" style="0" b="125" e="132" margin-bottom="0.0pt">
+          <text>Cell 32
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="7" b="134" e="152" width="168.35pt">
+        <stylefrag typ="2" style="0" b="134" e="151" margin-bottom="0.0pt">
+          <text>Cell 33 + Cell 34
+</text>
+        </stylefrag>
+      </stylefrag>
+    </stylefrag>
+    <stylefrag typ="2" b="153" e="587">
+      <text>
+</text>
+      <stylefrag typ="2" b="173" e="190">
+        <text> Это первая сноска</text>
+      </stylefrag>
+      <stylefrag typ="2" b="233" e="252">
+        <text> А это вторая сноска</text>
+      </stylefrag>
+      <stylefrag typ="2" b="332" e="358">
+        <text> Это первая концевая сноска</text>
+      </stylefrag>
+      <stylefrag typ="2" b="402" e="423">
+        <text>Это первое примечание
+</text>
+      </stylefrag>
+      <stylefrag typ="2" b="501" e="547">
+        <text>А это второе примечание на несколько элементов
+</text>
+      </stylefrag>
+    </stylefrag>
+    <stylefrag typ="2" style="8" b="588" e="624" text-align="center">
+      <text>Договор поставки №17731-40917731-409
+</text>
+      <stylefrag typ="1" style="9" b="588" e="604" font-weight="bold">
+        <text>Дого</text>
+      </stylefrag>
+      <stylefrag typ="1" style="10" b="605" e="614" font-weight="bold" text-decoration="underline">
+        <text>№</text>
+      </stylefrag>
+    </stylefrag>
+    <stylefrag typ="2" b="625" e="700">
+      <text>А это отдельное поле:  ООО ''ТД ''Олимп'', должен выделиться обычный текст.
+</text>
+    </stylefrag>
+    <stylefrag typ="2" style="0" b="701" e="825" margin-bottom="0.0pt">
+      <stylefrag typ="2" b="729" e="774">
+        <text>Текст внутри прямоугольникаТекст внутри круга.</text>
+      </stylefrag>
+      <stylefrag typ="2" b="777" e="820">
+        <text>А это текст внутри плавающего прямоугольника</text>
+      </stylefrag>
+    </stylefrag>
+    <stylefrag typ="2" b="826" e="916">
+      <text>Заголовок текст 1111
+</text>
+    </stylefrag>
+    <stylefrag typ="2" style="11" b="917" e="968" background-color="#FFFFFF">
+      <text>Таблица,  в которой столбец содержит авто нумерацию
+</text>
+      <stylefrag typ="1" style="9" b="917" e="967" font-weight="bold">
+        <text>Таблица,  в которой столбец содержит авто нумерацию</text>
+      </stylefrag>
+    </stylefrag>
+    <stylefrag typ="3" b="969" e="1271">
+      <stylefrag typ="4" style="12" b="969" e="971" width="33.15pt">
+        <stylefrag typ="2" b="969" e="970">
+          <text>№
+</text>
+          <stylefrag typ="1" style="9" b="969" e="969" font-weight="bold">
+            <text>№</text>
+          </stylefrag>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="13" b="972" e="988" width="266.15pt">
+        <stylefrag typ="2" b="972" e="987">
+          <text>Название работы
+</text>
+          <stylefrag typ="1" style="9" b="972" e="986" font-weight="bold">
+            <text>Название работы</text>
+          </stylefrag>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="12" b="989" e="990" width="33.15pt">
+        <stylefrag typ="2" style="0" b="989" e="989" margin-bottom="0.0pt">
+          <text>
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="13" b="991" e="1086" width="266.15pt">
+        <stylefrag typ="2" b="991" e="1085">
+          <text>Html-верстка новых макетов страниц, шаблонов писем, интерфейсных решений, внедрение их на сайт
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="12" b="1087" e="1088" width="33.15pt">
+        <stylefrag typ="2" style="0" b="1087" e="1087" margin-bottom="0.0pt">
+          <text>
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="13" b="1089" e="1186" width="266.15pt">
+        <stylefrag typ="2" b="1089" e="1185">
+          <text>Поддержка сайтов компании (html, css, javascript, xml/xsl)
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="12" b="1187" e="1188" width="33.15pt">
+        <stylefrag typ="2" style="0" b="1187" e="1187" margin-bottom="0.0pt">
+          <text>
+</text>
+        </stylefrag>
+      </stylefrag>
+      <stylefrag typ="4" style="13" b="1189" e="1271" width="266.15pt">
+        <stylefrag typ="2" b="1189" e="1270">
+          <text>Доработка нового функционала (html, css, javascript, xml/xsl) для сайтов компании
+</text>
+        </stylefrag>
+      </stylefrag>
+    </stylefrag>
+    <stylefrag typ="2" style="14" b="1272" e="1272" background-color="#FFFFFF" margin-top="2.9pt">
+      <text>
+</text>
+    </stylefrag>
+    <stylefrag typ="2" b="1273" e="1273">
+      <text>
+</text>
+    </stylefrag>
+    <stylefrag typ="2" style="0" b="1274" e="1275" margin-bottom="0.0pt">
+      <text> 
+</text>
+    </stylefrag>
+    <stylefrag typ="2" b="1276" e="1437">
+      <stylefrag typ="2" b="1289" e="1333">
+        <text> А это другая концевая сноска (с таблицей !)
+</text>
+      </stylefrag>
+      <stylefrag typ="3" b="1334" e="1407">
+        <stylefrag typ="4" style="15" b="1334" e="1369" width="239.25pt">
+          <stylefrag typ="2" b="1334" e="1368">
+            <text>Это первая ячейка в концевой сноске</text>
+          </stylefrag>
+        </stylefrag>
+        <stylefrag typ="4" style="16" b="1370" e="1407" width="239.3pt">
+          <stylefrag typ="2" b="1370" e="1406">
+            <text>А это другая ячейка в концевой сноске</text>
+          </stylefrag>
+        </stylefrag>
+      </stylefrag>
+    </stylefrag>
+  </stylefrag>
+</doc>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc format="6" filename="Sample1251.txt">
+  <content>
+    <container id="cnt1">
+      <text id="txt1">Перед таблицей</text>
+      <newline />
+      <text id="txt2"> Cell 11 Cell 12 Cell 13  Cc11 Cc22  Cc13 </text>
+      <newline />
+      <text id="txt3"> Cc21 Cc23 </text>
+      <newline />
+      <text id="txt4" spaces="3">   </text>
+      <newline />
+      <text id="txt5"> Cell 21 + Cell 31  Cell 22 Cell 23 Cell 24 </text>
+      <newline />
+      <text id="txt6"> Cell 32 Cell 33 + Cell 34	 </text>
+      <newline />
+      <text id="txt7" spaces="1"> </text>
+      <newline />
+      <text id="txt8">А это &lt;ну&gt;мерованн&lt;ый&gt; &lt;http://google.ru/&gt; ( Это первая сноска) список</text>
+      <newline />
+      <text id="txt9">1. Первая строка O??®</text>
+      <newline />
+      <text id="txt10">2. Вторая строка ( А это вторая сноска)</text>
+      <newline />
+      <text id="txt11">	a. Подстрока второй строки</text>
+      <newline />
+      <text id="txt12">	b. Другая строка &lt;http://google.ru/&gt;</text>
+      <newline />
+      <text id="txt13">3. Третья строка</text>
+      <newline count="3" />
+      <text id="txt14">Ненумерованный&lt;11&gt; список ( Это первая концевая сноска)</text>
+      <newline />
+      <text id="txt15">? 1111&lt;1&gt;</text>
+      <newline />
+      <text id="txt16">? 222&lt;2&gt;2</text>
+      <newline />
+      <text id="txt17">? 33333</text>
+      <newline count="2" />
+      <text id="txt18">Следующий нумерованный список</text>
+      <newline />
+      <text id="txt19">Е. 123412341</text>
+      <newline />
+      <text id="txt20">	a. 456456465</text>
+      <newline />
+      <text id="txt21">	b. 456456456</text>
+      <newline />
+      <text id="txt22">		i. 456456456</text>
+      <newline />
+      <text id="txt23">		ii. 456456456</text>
+      <newline />
+      <text id="txt24">	c. 456456456</text>
+      <newline />
+      <text id="txt25">	d. 456456456</text>
+      <newline />
+      <text id="txt26">Ж. 456456456</text>
+      <newline />
+      <text id="txt27">	a. 456456456</text>
+      <newline />
+      <text id="txt28">		i. 45645646</text>
+      <newline />
+      <text id="txt29">З. 456456456</text>
+      <newline count="3" />
+      <text id="txt30">Договор поставки №17731-409</text>
+      <newline />
+      <text id="txt31">А это отдельное поле:  ООО ''ТД ''Олимп'', должен выделиться обычный текст.</text>
+      <pagebreak />
+      <text id="txt32">А это полотно с диаграммой: Текст внутри прямоугольника</text>
+      <newline count="3" />
+      <text id="txt33">Текст внутри круга.</text>
+      <newline />
+      <text id="txt34">А это текст внутри плавающего прямоугольника</text>
+      <newline count="4" />
+      <text id="txt35">Заголовок текст 1111</text>
+      <newline count="3" />
+      <text id="txt36">Здесь псевдогиперссылки на заголовок, на закладку и другую закладку.</text>
+      <newline />
+      <text id="txt37">Таблица,  в которой столбец содержит авто нумерацию</text>
+      <newline />
+      <text id="txt38"> № Название работы </text>
+      <newline />
+      <text id="txt39"> 1. Html-верстка новых макетов страниц, шаблонов писем, интерфейсных решений, внедрение их на сайт </text>
+      <newline />
+      <text id="txt40"> 2. Поддержка сайтов компании (html, css, javascript, xml/xsl)</text>
+      <newline />
+      <text id="txt41">? Это первый элемент</text>
+      <newline />
+      <text id="txt42">? Это второй элемент </text>
+      <newline />
+      <text id="txt43"> 3. Доработка нового функционала (html, css, javascript, xml/xsl) для сайтов компании </text>
+      <newline />
+      <text id="txt44" spaces="1"> </text>
+      <pagebreak />
+      <text id="txt45">А это просто ( А это другая концевая сноска (с таблицей !)  Это первая ячейка в концевой сноске А это другая ячейка в концевой сноске    ) картинка на новой строке:</text>
+    </container>
+  </content>
+</doc>

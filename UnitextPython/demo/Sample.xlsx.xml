@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc format="11" filename="Sample.xlsx">
+  <content>
+    <container id="cnt1">
+      <text id="txt1">Форма 2</text>
+      <newline count="4" />
+      <text id="txt2">Студия "Москва"</text>
+      <newline />
+      <text id="txt3">(Наименование стройки)</text>
+      <newline count="5" />
+      <text id="txt4">ОБЪЕКТНАЯ СМЕТА 02-01</text>
+      <newline />
+      <text id="txt5">(объектный сметный расчет)</text>
+      <newline count="3" />
+      <table id="tbl1" rows="1" columns="2">
+        <row>
+          <cell id="tcell1" row="0" col="0">
+            <text id="txt6">на строительство</text>
+          </cell>
+          <cell id="tcell2" row="0" col="1">
+            <text id="txt7">Основные объекты строительства</text>
+          </cell>
+        </row>
+      </table>
+      <newline count="2" />
+      <table id="tbl2" rows="2" columns="3">
+        <row>
+          <cell id="tcell3" row="0" col="0">
+            <text id="txt8">Сметная стоимость, тыс.руб.</text>
+          </cell>
+          <cell id="tcell4" row="0" col="1">
+            <text id="txt9">206077.42238000018</text>
+          </cell>
+          <cell id="tcell5" row="0" col="2">
+            <text id="txt10">тыс.руб.</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell6" row="1" col="0">
+            <text id="txt11">Средства на оплату труда</text>
+          </cell>
+          <cell id="tcell7" row="1" col="1">
+            <text id="txt12">17315.296750000001</text>
+          </cell>
+          <cell id="tcell8" row="1" col="2">
+            <text id="txt10">тыс.руб.</text>
+          </cell>
+        </row>
+      </table>
+      <newline count="3" />
+      <text id="txt13">Расчетный измеритель единичной стоимости</text>
+      <newline count="3" />
+      <table id="tbl3" rows="1" columns="4">
+        <row>
+          <cell id="tcell9" row="0" col="0">
+            <text id="txt14">Составлена в текущем уровне цен на </text>
+          </cell>
+          <cell id="tcell10" row="0" col="1">
+            <text id="txt15">апрель</text>
+          </cell>
+          <cell id="tcell11" row="0" col="2">
+            <text id="txt16">2013</text>
+          </cell>
+          <cell id="tcell12" row="0" col="3">
+            <text id="txt17">г.</text>
+          </cell>
+        </row>
+      </table>
+      <newline count="2" />
+      <table id="tbl4" rows="13" columns="10">
+        <row>
+          <cell id="tcell13" row="0" col="0">
+            <text id="txt18">№</text>
+          </cell>
+          <cell id="tcell14" row="0" col="1">
+            <text id="txt19">Номера</text>
+          </cell>
+          <cell id="tcell15" row="0" col="2" />
+          <cell id="tcell16" row="0" col="3" colspan="6">
+            <text id="txt20">Сметная стоимость, тыс. руб.</text>
+          </cell>
+          <cell id="tcell17" row="0" col="9">
+            <text id="txt21">Показа-</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell18" row="1" col="0">
+            <text id="txt22">п/п</text>
+          </cell>
+          <cell id="tcell19" row="1" col="1">
+            <text id="txt23">сметных</text>
+          </cell>
+          <cell id="tcell20" row="1" col="2">
+            <text id="txt24">Наименование работ и затрат</text>
+          </cell>
+          <cell id="tcell21" row="1" rowspan="4" col="3">
+            <text id="txt25">Строительных работ</text>
+          </cell>
+          <cell id="tcell22" row="1" rowspan="4" col="4">
+            <text id="txt26">Монтажных работ</text>
+          </cell>
+          <cell id="tcell23" row="1" rowspan="4" col="5">
+            <text id="txt27">Оборудования, мебели, инвентаря</text>
+          </cell>
+          <cell id="tcell24" row="1" rowspan="4" col="6">
+            <text id="txt28">Прочих затрат</text>
+          </cell>
+          <cell id="tcell25" row="1" rowspan="4" col="7">
+            <text id="txt29">Всего</text>
+          </cell>
+          <cell id="tcell26" row="1" rowspan="4" col="8">
+            <text id="txt11">Средства на оплату труда</text>
+          </cell>
+          <cell id="tcell27" row="1" col="9">
+            <text id="txt30">тели</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell28" row="2" col="0" />
+          <cell id="tcell29" row="2" col="1">
+            <text id="txt31">расчетов</text>
+          </cell>
+          <cell id="tcell30" row="2" col="2" />
+          <cell id="tcell31" row="2" col="9">
+            <text id="txt32">единич-</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell32" row="3" col="0" />
+          <cell id="tcell33" row="3" col="1">
+            <text id="txt33">(смет)</text>
+          </cell>
+          <cell id="tcell34" row="3" col="2" />
+          <cell id="tcell35" row="3" col="9">
+            <text id="txt34">ной стои-</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell36" row="4" col="0" />
+          <cell id="tcell37" row="4" col="1" />
+          <cell id="tcell38" row="4" col="2" />
+          <cell id="tcell39" row="4" col="9">
+            <text id="txt35">мости</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell40" row="5" col="0">
+            <text id="txt36">1</text>
+          </cell>
+          <cell id="tcell41" row="5" col="1">
+            <text id="txt37">2</text>
+          </cell>
+          <cell id="tcell42" row="5" col="2">
+            <text id="txt38">3</text>
+          </cell>
+          <cell id="tcell43" row="5" col="3">
+            <text id="txt39">4</text>
+          </cell>
+          <cell id="tcell44" row="5" col="4">
+            <text id="txt40">5</text>
+          </cell>
+          <cell id="tcell45" row="5" col="5">
+            <text id="txt41">6</text>
+          </cell>
+          <cell id="tcell46" row="5" col="6">
+            <text id="txt42">7</text>
+          </cell>
+          <cell id="tcell47" row="5" col="7">
+            <text id="txt43">8</text>
+          </cell>
+          <cell id="tcell48" row="5" col="8">
+            <text id="txt44">9</text>
+          </cell>
+          <cell id="tcell49" row="5" col="9">
+            <text id="txt45">10</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell50" row="6" col="0">
+            <text id="txt46">1</text>
+          </cell>
+          <cell id="tcell51" row="6" col="1">
+            <text id="txt47">ЛС-02-01-01</text>
+          </cell>
+          <cell id="tcell52" row="6" col="2">
+            <text id="txt48">Основное оборудование аппаратно-студийного комплекса. </text>
+          </cell>
+          <cell id="tcell53" row="6" col="3">
+            <text id="txt49">6253.1852800000006</text>
+          </cell>
+          <cell id="tcell54" row="6" col="4">
+            <text id="txt50">17000.893680000001</text>
+          </cell>
+          <cell id="tcell55" row="6" col="5">
+            <text id="txt51">168868.63278000016</text>
+          </cell>
+          <cell id="tcell56" row="6" col="6">
+            <text id="txt52">0</text>
+          </cell>
+          <cell id="tcell57" row="6" col="7">
+            <text id="txt53">192122.71174000017</text>
+          </cell>
+          <cell id="tcell58" row="6" col="8">
+            <text id="txt54">7208.86132</text>
+          </cell>
+          <cell id="tcell59" row="6" col="9" />
+        </row>
+        <row>
+          <cell id="tcell60" row="7" col="0">
+            <text id="txt55">2</text>
+          </cell>
+          <cell id="tcell61" row="7" col="1">
+            <text id="txt56">ЛС-02-01-02</text>
+          </cell>
+          <cell id="tcell62" row="7" col="2">
+            <text id="txt57">Основное оборудование аппаратно-студийного комплекса. Демонтаж оборудования телестудии</text>
+          </cell>
+          <cell id="tcell63" row="7" col="3">
+            <text id="txt58">4.0592699999999997</text>
+          </cell>
+          <cell id="tcell64" row="7" col="4">
+            <text id="txt59">261.49051000000003</text>
+          </cell>
+          <cell id="tcell65" row="7" col="5">
+            <text id="txt60">0</text>
+          </cell>
+          <cell id="tcell66" row="7" col="6">
+            <text id="txt61">0</text>
+          </cell>
+          <cell id="tcell67" row="7" col="7">
+            <text id="txt62">265.54978000000006</text>
+          </cell>
+          <cell id="tcell68" row="7" col="8">
+            <text id="txt63">107.91493</text>
+          </cell>
+          <cell id="tcell69" row="7" col="9" />
+        </row>
+        <row>
+          <cell id="tcell70" row="8" col="0">
+            <text id="txt64">3</text>
+          </cell>
+          <cell id="tcell71" row="8" col="1">
+            <text id="txt65">ЛС-02-01-03</text>
+          </cell>
+          <cell id="tcell72" row="8" col="2">
+            <text id="txt66">Дизайн студии Москва</text>
+          </cell>
+          <cell id="tcell73" row="8" col="3">
+            <text id="txt67">3039.7369800000001</text>
+          </cell>
+          <cell id="tcell74" row="8" col="4">
+            <text id="txt68">1005.31674</text>
+          </cell>
+          <cell id="tcell75" row="8" col="5">
+            <text id="txt69">5632.9402099999998</text>
+          </cell>
+          <cell id="tcell76" row="8" col="6">
+            <text id="txt70">0</text>
+          </cell>
+          <cell id="tcell77" row="8" col="7">
+            <text id="txt71">9677.9939300000005</text>
+          </cell>
+          <cell id="tcell78" row="8" col="8">
+            <text id="txt72">9677.9939300000005</text>
+          </cell>
+          <cell id="tcell79" row="8" col="9" />
+        </row>
+        <row>
+          <cell id="tcell80" row="9" col="0">
+            <text id="txt73">4</text>
+          </cell>
+          <cell id="tcell81" row="9" col="1">
+            <text id="txt74">ЛС-02-01-04</text>
+          </cell>
+          <cell id="tcell82" row="9" col="2">
+            <text id="txt75">Замена батарей системы бесперебойного электропитания</text>
+          </cell>
+          <cell id="tcell83" row="9" col="3">
+            <text id="txt76">15.458459999999999</text>
+          </cell>
+          <cell id="tcell84" row="9" col="4">
+            <text id="txt77">144.51714999999999</text>
+          </cell>
+          <cell id="tcell85" row="9" col="5">
+            <text id="txt78">2555.0651400000002</text>
+          </cell>
+          <cell id="tcell86" row="9" col="6">
+            <text id="txt79">98.132660000000001</text>
+          </cell>
+          <cell id="tcell87" row="9" col="7">
+            <text id="txt80">2813.1734100000003</text>
+          </cell>
+          <cell id="tcell88" row="9" col="8">
+            <text id="txt81">108.48931</text>
+          </cell>
+          <cell id="tcell89" row="9" col="9" />
+        </row>
+        <row>
+          <cell id="tcell90" row="10" col="0">
+            <text id="txt82">5</text>
+          </cell>
+          <cell id="tcell91" row="10" col="1">
+            <text id="txt83">ЛС-02-01-05</text>
+          </cell>
+          <cell id="tcell92" row="10" col="2">
+            <text id="txt84">Дооснащение системы кондиционирования</text>
+          </cell>
+          <cell id="tcell93" row="10" col="3">
+            <text id="txt85">273.49569000000002</text>
+          </cell>
+          <cell id="tcell94" row="10" col="4">
+            <text id="txt86">142.03332999999998</text>
+          </cell>
+          <cell id="tcell95" row="10" col="5">
+            <text id="txt87">468.90421000000003</text>
+          </cell>
+          <cell id="tcell96" row="10" col="6">
+            <text id="txt88">4.1316899999999999</text>
+          </cell>
+          <cell id="tcell97" row="10" col="7">
+            <text id="txt89">888.56492000000014</text>
+          </cell>
+          <cell id="tcell98" row="10" col="8">
+            <text id="txt90">150.24648999999999</text>
+          </cell>
+          <cell id="tcell99" row="10" col="9" />
+        </row>
+        <row>
+          <cell id="tcell100" row="11" col="0">
+            <text id="txt91">6</text>
+          </cell>
+          <cell id="tcell101" row="11" col="1">
+            <text id="txt92">ЛС-02-01-06</text>
+          </cell>
+          <cell id="tcell102" row="11" col="2">
+            <text id="txt93">Дооснащение системы защиты информации</text>
+          </cell>
+          <cell id="tcell103" row="11" col="3">
+            <text id="txt94">0</text>
+          </cell>
+          <cell id="tcell104" row="11" col="4">
+            <text id="txt95">144.67094</text>
+          </cell>
+          <cell id="tcell105" row="11" col="5">
+            <text id="txt96">164.75766000000002</text>
+          </cell>
+          <cell id="tcell106" row="11" col="6">
+            <text id="txt97">0</text>
+          </cell>
+          <cell id="tcell107" row="11" col="7">
+            <text id="txt98">309.42860000000002</text>
+          </cell>
+          <cell id="tcell108" row="11" col="8">
+            <text id="txt99">61.790769999999995</text>
+          </cell>
+          <cell id="tcell109" row="11" col="9" />
+        </row>
+        <row>
+          <cell id="tcell110" row="12" col="0" />
+          <cell id="tcell111" row="12" col="1" />
+          <cell id="tcell112" row="12" col="2">
+            <text id="txt100">ИТОГО:</text>
+          </cell>
+          <cell id="tcell113" row="12" col="3">
+            <text id="txt101">9585.9356800000005</text>
+          </cell>
+          <cell id="tcell114" row="12" col="4">
+            <text id="txt102">18698.922349999997</text>
+          </cell>
+          <cell id="tcell115" row="12" col="5">
+            <text id="txt103">177690.30000000016</text>
+          </cell>
+          <cell id="tcell116" row="12" col="6">
+            <text id="txt104">102.26435000000001</text>
+          </cell>
+          <cell id="tcell117" row="12" col="7">
+            <text id="txt105">206077.42238000018</text>
+          </cell>
+          <cell id="tcell118" row="12" col="8">
+            <text id="txt106">17315.296750000001</text>
+          </cell>
+          <cell id="tcell119" row="12" col="9" />
+        </row>
+      </table>
+      <newline count="4" />
+      <table id="tbl5" rows="4" columns="3">
+        <row>
+          <cell id="tcell120" row="0" col="0">
+            <text id="txt107">Начальник ОКС ГУП СППМ</text>
+          </cell>
+          <cell id="tcell121" row="0" col="1" />
+          <cell id="tcell122" row="0" col="2">
+            <text id="txt108">В.В.Полищук</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell123" row="1" col="0" />
+          <cell id="tcell124" row="1" col="1" colspan="2">
+            <text id="txt109">[подпись (инициалы, фамилия)]</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell125" row="2" col="0">
+            <text id="txt110">Зам.начальника ОКС ГУП СППМ</text>
+          </cell>
+          <cell id="tcell126" row="2" col="1" />
+          <cell id="tcell127" row="2" col="2">
+            <text id="txt111">С.Н.Посадский</text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell128" row="3" col="0" />
+          <cell id="tcell129" row="3" col="1" colspan="2">
+            <text id="txt109">[подпись (инициалы, фамилия)]</text>
+          </cell>
+        </row>
+      </table>
+    </container>
+  </content>
+</doc>

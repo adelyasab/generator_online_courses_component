@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Форма для лекции</title>
+  <style>
+    /* Простые стили для формы */
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Форма для лекции</h1>
+
+  <form action="/submit" method="POST">
+    <label for="lectureTitle">Заголовок лекции:</label>
+    <input type="text" id="lectureTitle" name="lectureTitle" required>
+
+    <label for="courseLogo">Логотип курса:</label>
+    <input type="text" id="courseLogo" name="courseLogo" required>
+
+    <label for="authorInfo">Сведения об авторе:</label>
+    <textarea id="authorInfo" name="authorInfo" required></textarea>
+
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>
+

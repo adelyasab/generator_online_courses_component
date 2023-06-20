@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc format="7" filename="Sample.htm">
+  <content>
+    <container id="cnt1">
+      <text id="txt1">Перед таблицей</text>
+      <newline />
+      <table id="tbl1" rows="3" columns="4">
+        <col num="0" width="84.8pt" />
+        <col num="1" width="219.75pt" />
+        <col num="2" width="43.5pt" />
+        <col num="3" width="119.2pt" />
+        <row>
+          <cell id="tcell1" row="0" col="0">
+            <text id="txt2">Cell 11   </text>
+          </cell>
+          <cell id="tcell2" row="0" col="1">
+            <text id="txt3">Cell 12   </text>
+          </cell>
+          <cell id="tcell3" row="0" col="2">
+            <text id="txt4">Cell 13   </text>
+          </cell>
+          <cell id="tcell4" row="0" col="3">
+            <table id="tbl2" rows="2" columns="3">
+              <col num="0" width="36.0pt" />
+              <col num="1" width="36.05pt" />
+              <col num="2" width="36.05pt" />
+              <row>
+                <cell id="tcell5" row="0" col="0">
+                  <text id="txt5">Cc11     </text>
+                </cell>
+                <cell id="tcell6" row="0" rowspan="2" col="1">
+                  <text id="txt6">Cc22     </text>
+                </cell>
+                <cell id="tcell7" row="0" col="2">
+                  <text id="txt7">Cc13     </text>
+                </cell>
+              </row>
+              <row>
+                <cell id="tcell8" row="1" col="0">
+                  <text id="txt8">Cc21     </text>
+                </cell>
+                <cell id="tcell9" row="1" col="2">
+                  <text id="txt9">Cc23     </text>
+                </cell>
+              </row>
+            </table>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell10" row="1" rowspan="2" col="0">
+            <text id="txt10">Cell 21 + Cell 31   </text>
+          </cell>
+          <cell id="tcell11" row="1" col="1">
+            <text id="txt11">Cell 22   </text>
+          </cell>
+          <cell id="tcell12" row="1" col="2">
+            <text id="txt12">Cell 23   </text>
+          </cell>
+          <cell id="tcell13" row="1" col="3">
+            <text id="txt13">Cell 24   </text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell14" row="2" col="1">
+            <text id="txt14">Cell 32   </text>
+          </cell>
+          <cell id="tcell15" row="2" col="2" colspan="2">
+            <text id="txt15">Cell 33 + Cell 34   </text>
+          </cell>
+        </row>
+      </table>
+      <newline count="3" />
+      <text id="txt16">А </text>
+      <hyperlink id="hyplnk1" href="http://google.ru/">
+        <container id="cnt2">
+          <text id="txt17">это </text>
+          <text id="txt18" type="1">ну</text>
+          <text id="txt19">мерованн</text>
+          <text id="txt20" type="2">ый</text>
+        </container>
+      </hyperlink>
+      <footnote id="footnote1">
+        <text id="txt21"> Это первая сноска</text>
+      </footnote>
+      <text id="txt22"> список</text>
+      <newline />
+      <list id="lst1">
+        <listitem id="litm1">
+          <prefix>
+            <text id="txt23">1.</text>
+          </prefix>
+          <text id="txt24">Первая строка ☺απ®</text>
+        </listitem>
+        <listitem id="litm2">
+          <prefix>
+            <text id="txt25">2.</text>
+          </prefix>
+          <container id="cnt3">
+            <text id="txt26">Вторая строка</text>
+            <footnote id="footnote2">
+              <text id="txt27"> А это вторая сноска</text>
+            </footnote>
+          </container>
+          <list id="lst2" level="1">
+            <listitem id="litm3">
+              <prefix>
+                <text id="txt28">a.</text>
+              </prefix>
+              <text id="txt29">Подстрока второй строки</text>
+            </listitem>
+            <listitem id="litm4">
+              <prefix>
+                <text id="txt30">b.</text>
+              </prefix>
+              <container id="cnt4">
+                <text id="txt31">Другая </text>
+                <hyperlink id="hyplnk2" href="http://google.ru/">
+                  <text id="txt32">строка</text>
+                </hyperlink>
+              </container>
+            </listitem>
+          </list>
+        </listitem>
+        <listitem id="litm5">
+          <prefix>
+            <text id="txt33">3.</text>
+          </prefix>
+          <text id="txt34">Третья строка</text>
+        </listitem>
+      </list>
+      <newline count="3" />
+      <text id="txt35">Ненумерованный</text>
+      <text id="txt36" type="1">11</text>
+      <text id="txt37"> список</text>
+      <footnote id="footnote3" endnote="true">
+        <text id="txt38"> Это первая концевая сноска</text>
+      </footnote>
+      <newline />
+      <list id="lst3" pref="·">
+        <listitem id="litm6">
+          <container id="cnt5">
+            <text id="txt39">1111</text>
+            <text id="txt40" type="1">1</text>
+          </container>
+        </listitem>
+        <listitem id="litm7">
+          <container id="cnt6">
+            <text id="txt41">222</text>
+            <text id="txt42" type="1">2</text>
+            <text id="txt43">2</text>
+          </container>
+        </listitem>
+        <listitem id="litm8">
+          <text id="txt44">33333</text>
+        </listitem>
+      </list>
+      <newline count="2" />
+      <text id="txt45">Следующий нумерованный </text>
+      <comment id="comment1">Это первое примечание</comment>
+      <text id="txt46"> список</text>
+      <newline />
+      <list id="lst4">
+        <listitem id="litm9">
+          <prefix>
+            <text id="txt47">Е.</text>
+          </prefix>
+          <text id="txt48">123412341</text>
+          <list id="lst5" level="1">
+            <listitem id="litm10">
+              <prefix>
+                <text id="txt49">a.</text>
+              </prefix>
+              <text id="txt50">456456465</text>
+            </listitem>
+            <listitem id="litm11">
+              <prefix>
+                <text id="txt51">b.</text>
+              </prefix>
+              <text id="txt52">456456456</text>
+              <list id="lst6" level="2">
+                <listitem id="litm12">
+                  <prefix>
+                    <text id="txt53">i.</text>
+                  </prefix>
+                  <text id="txt54">456456456</text>
+                </listitem>
+                <listitem id="litm13">
+                  <prefix>
+                    <text id="txt55">ii.</text>
+                  </prefix>
+                  <text id="txt56">456456456</text>
+                </listitem>
+              </list>
+            </listitem>
+            <listitem id="litm14">
+              <prefix>
+                <text id="txt57">c.</text>
+              </prefix>
+              <text id="txt58">456456456</text>
+            </listitem>
+            <listitem id="litm15">
+              <prefix>
+                <text id="txt59">d.      456456456</text>
+              </prefix>
+              <comment id="comment2">А это второе примечание на несколько элементов</comment>
+            </listitem>
+          </list>
+        </listitem>
+        <listitem id="litm16">
+          <prefix>
+            <text id="txt60">Ж.</text>
+          </prefix>
+          <text id="txt61">456456456</text>
+        </listitem>
+        <listitem id="litm17">
+          <prefix>
+            <text id="txt62">З.</text>
+          </prefix>
+          <text id="txt63">456456456</text>
+        </listitem>
+      </list>
+      <newline count="3" />
+      <text id="txt64">Договор поставки №17731-409</text>
+      <newline />
+      <text id="txt65">А это отдельное поле:  ООО ''ТД ''Олимп'', должен выделиться обычный текст.</text>
+      <newline />
+      <text id="txt66">А это полотно с диаграммой: </text>
+      <image id="Sample.files/image001.gif" width="468pt" height="203pt" />
+      <newline count="3" />
+      <text id="txt67">А это текст внутри плавающего прямоугольника</text>
+      <newline count="8" />
+      <text id="txt68">Заголовок текст 1111</text>
+      <newline count="3" />
+      <text id="txt69">Здесь псевдогиперссылки на </text>
+      <hyperlink id="hyplnk3" href="#_Заголовок_текст_1111">
+        <text id="txt70">заголовок</text>
+      </hyperlink>
+      <text id="txt71">, на </text>
+      <hyperlink id="hyplnk4" href="#закладка1">
+        <text id="txt72">закладку</text>
+      </hyperlink>
+      <text id="txt73"> и </text>
+      <hyperlink id="hyplnk5" href="#закладка2">
+        <text id="txt74">другую закладку</text>
+      </hyperlink>
+      <text id="txt75">.</text>
+      <newline />
+      <text id="txt76">Таблица,  в которой столбец содержит авто нумерацию</text>
+      <newline />
+      <table id="tbl3" rows="4" columns="2">
+        <col num="0" width="33.15pt" />
+        <col num="1" width="266.15pt" />
+        <row>
+          <cell id="tcell16" row="0" col="0">
+            <text id="txt77">№   </text>
+          </cell>
+          <cell id="tcell17" row="0" col="1">
+            <text id="txt78">Название работы   </text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell18" row="1" col="0">
+            <text id="txt79">1.             </text>
+          </cell>
+          <cell id="tcell19" row="1" col="1">
+            <text id="txt80">Html-верстка новых макетов страниц, шаблонов писем,   интерфейсных решений, внедрение их на сайт   </text>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell20" row="2" col="0">
+            <text id="txt81">2.             </text>
+          </cell>
+          <cell id="tcell21" row="2" col="1">
+            <container id="cnt7">
+              <text id="txt82">Поддержка сайтов компании (html, css, javascript, xml/xsl)   </text>
+              <list id="lst7" pref="">
+                <listitem id="litm18">
+                  <text id="txt83">Это первый элемент</text>
+                </listitem>
+                <listitem id="litm19">
+                  <text id="txt84">Это второй элемент</text>
+                </listitem>
+              </list>
+            </container>
+          </cell>
+        </row>
+        <row>
+          <cell id="tcell22" row="3" col="0">
+            <text id="txt85">3.             </text>
+          </cell>
+          <cell id="tcell23" row="3" col="1">
+            <text id="txt86">Доработка нового функционала (html, css, javascript, xml/xsl) для сайтов компании   </text>
+          </cell>
+        </row>
+      </table>
+      <pagebreak />
+      <newline count="3" />
+      <text id="txt87">А это просто</text>
+      <footnote id="footnote4" endnote="true">
+        <text id="txt88"> А это другая концевая сноска (с таблицей !) </text>
+      </footnote>
+      <text id="txt89"> картинка на новой строке:</text>
+      <newline />
+      <image id="Sample.files/image002.png" width="267pt" height="359pt" />
+    </container>
+  </content>
+</doc>
